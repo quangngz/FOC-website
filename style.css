@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+/* Header section */
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark background for header */
+    width: 100%;
+    color: white;
+    padding: 15px 30px;
+  }
+  .nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin: 0 20px;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 0;
+  }
+  
+  .nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Style for the parallax container */
+  .parallax {
+    position: relative;
+    background-image: url('background2.jpg'); /* Your background image */
+    /* Ensure the image covers the entire section */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Make the parallax section take full viewport height */
+    background-attachment: fixed; /* Creates the parallax effect */
+  }
+  
+  /* Content inside parallax section */
+  .content {
+    position: absolute;
+    top: 50%; /* Vertically center the content */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    text-align: center;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 3em;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p {
+    font-size: 1.2em;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Regular content sections */
+  .section {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+  }
+  
